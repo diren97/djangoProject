@@ -1,0 +1,17 @@
+{% extends "base/layout.html" %}
+
+{% block title %}
+Kayıt ol
+{% endblock title %}
+
+{% block content %}
+
+<form method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button class="btn" type="submit"> Kayıt ol</button>
+
+
+</form>
+
+{% endblock content %}
