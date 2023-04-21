@@ -13,7 +13,7 @@ pytz==2019.3
 sender==0.3
 six==1.14.0
 snowballstemmer==2.0.0
-sqlparse==0.3.0
+sqlparse==0.4.4
 typed-ast==1.4.1
 typing-extensions==3.7.4.1
 wrapt==1.11.2
